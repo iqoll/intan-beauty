@@ -269,9 +269,9 @@ export const TRANSFORMATIONS = [
   {
     title: "IPL Hair Removal",
     description: "Pertumbuhan bulu melambat & area ketiak cerah.",
-    before: "https://images.unsplash.com/photo-1596462502278-27bfac4023c6?auto=format&fit=crop&q=60&w=400",
-    after: "https://images.unsplash.com/photo-1596461042517-f2732958742b?auto=format&fit=crop&q=60&w=400",
-    category: "Laser"
+    before: "/images/testimony/before-3.webp",
+    after: "/images/testimony/after-3.webp",
+    category: "Skin"
   }
 ];
 
@@ -287,15 +287,15 @@ export const TESTIMONIALS = [
   {
     name: "Rina Kartika",
     source: "WhatsApp",
-    content: "IPL ketiak di sini beneran ngefek, bulu jd makin tipis & ketiak cerahan. Harganya paling ramah di kantong dibanding klinik lain.",
+    content: "Sehabis facial acne kemarin 2 hari setelahnya bener-bener ngefekk bgtt di aku.",
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=60&w=150",
     screenshot: '/images/testimony/testimony-2.webp'
   },
   {
-    name: "Dewi Putri",
+    name: "Tiara Dwi Marlinda",
     source: "Google Maps",
-    content: "Facial Glow nya rekomen! Komedo beneran diangkat bersih, terus pake setrika wajahnya bikin muka lgsg kenceng.",
+    content: "enak kalo perawatan disini nih.",
     avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=60&w=150",
-    screenshot: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=60&w=500"
+    screenshot: "/images/testimony/testimony-3.webp"
   }
 ];
