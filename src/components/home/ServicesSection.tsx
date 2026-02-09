@@ -1,7 +1,7 @@
 import { Icon } from '@iconify/react';
 import { SERVICES } from '../../constants';
 import SectionTitle from '../ui/SectionTitle';
-import ServiceCard from '../ui/ServiceCard';
+import ServiceSlider from '../ui/ServiceSlider';
 
 interface ServicesSectionProps {
   handleOpenBooking: () => void;
@@ -24,11 +24,7 @@ export default function ServicesSection({ handleOpenBooking }: ServicesSectionPr
               <span className="font-bold">Hair Treatments</span>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {SERVICES.filter(s => s.category === 'hair').map(service => (
-              <ServiceCard key={service.id} service={service} onBook={handleOpenBooking} />
-            ))}
-          </div>
+          <ServiceSlider services={SERVICES.filter(s => s.category === 'hair')} onBook={handleOpenBooking} />
         </div>
 
         {/* Facial Category */}
@@ -39,11 +35,7 @@ export default function ServicesSection({ handleOpenBooking }: ServicesSectionPr
               <span className="font-bold">Facial & Skin Treatments</span>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {SERVICES.filter(s => s.category === 'facial').map(service => (
-              <ServiceCard key={service.id} service={service} onBook={handleOpenBooking} />
-            ))}
-          </div>
+          <ServiceSlider services={SERVICES.filter(s => s.category === 'facial')} onBook={handleOpenBooking} />
         </div>
 
         {/* Laser IPL Category */}
@@ -54,11 +46,7 @@ export default function ServicesSection({ handleOpenBooking }: ServicesSectionPr
               <span className="font-bold">Laser IPL & Hair Removal</span>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {SERVICES.filter(s => s.category === 'laser-ipl').map(service => (
-              <ServiceCard key={service.id} service={service} onBook={handleOpenBooking} />
-            ))}
-          </div>
+          <ServiceSlider services={SERVICES.filter(s => s.category === 'laser-ipl')} onBook={handleOpenBooking} />
         </div>
       </div>
     </section>
