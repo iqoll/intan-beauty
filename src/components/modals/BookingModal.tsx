@@ -119,7 +119,9 @@ function BookingModal({ isOpen, onClose }: BookingModalProps) {
                     <p className="text-xs text-primary-light mb-6">Booking untuk {selectedService?.name} dapat dilakukan langsung melalui Admin WhatsApp kami.</p>
                     <div className="flex flex-col gap-3">
                       <a
-                        href={WHATSAPP_LINK}
+                        href={WHATSAPP_LINK + selectedService?.name}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="bg-secondary text-white py-4 rounded-2xl font-bold text-sm shadow-lg flex items-center justify-center gap-2"
                       >
                         <MessageCircle size={18} /> Chat Admin Sekarang

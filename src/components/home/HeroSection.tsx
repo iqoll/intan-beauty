@@ -34,7 +34,7 @@ export default function HeroSection({ handleOpenBooking }: HeroSectionProps) {
             Booking Sekarang
           </button>
           <a
-            href="#services"
+            href="#layanan"
             className="w-full sm:w-auto bg-transparent border-2 border-white/50 text-white px-10 py-[18px] rounded-2xl font-bold text-lg backdrop-blur-md hover:bg-white/10 transition-all"
           >
             Lihat Layanan

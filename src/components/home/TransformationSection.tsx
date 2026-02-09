@@ -10,7 +10,7 @@ export default function TransformationSection() {
       <div className="max-w-7xl mx-auto">
         <SectionTitle
           title="Hasil & Testimoni"
-          subtitle="Transformasi nyata and kepuasan tulus dari para pelanggan setia IntanBeauty."
+          subtitle="Transformasi nyata dan kepuasan tulus dari para pelanggan setia IntanBeauty."
         />
 
         <h3 className="text-2xl font-bold serif text-primary mb-10 flex items-center gap-3">

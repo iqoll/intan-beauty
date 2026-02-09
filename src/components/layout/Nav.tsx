@@ -50,7 +50,7 @@ function Nav({ isMenuOpen, setIsMenuOpen, handleOpenBooking }: NavProps) {
             onClick={handleOpenBooking}
             className="bg-primary text-white py-4 rounded-2xl text-center font-bold w-full"
           >
-            Pilih Jadwal Booking
+            Booking Sekarang
           </button>
         </div>
       )}
