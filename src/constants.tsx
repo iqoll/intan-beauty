@@ -1,4 +1,3 @@
-
 import type { Service, FAQItem } from './types';
 
 export const WHATSAPP_NUMBER = '082219282839';
@@ -156,7 +155,7 @@ export const SERVICES: Service[] = [
     category: 'laser-ipl',
     name: 'FACIAL + IPL GLOW',
     price: 'Rp 330.000',
-    image: 'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=800',
+    image: '/images/services/facial-ipl-glow.webp',
     description: 'Solusi untuk flek bekas jerawat dan kulit kusam dengan teknologi Intense Pulsed Light.',
     benefits: [
       "Menyamarkan noda hitam dan bekas jerawat",
@@ -169,7 +168,7 @@ export const SERVICES: Service[] = [
     category: 'laser-ipl',
     name: 'IPL HAIR REMOVAL KETIAK',
     price: 'Rp 200.000',
-    image: 'https://images.unsplash.com/photo-1596462502278-27bfac4023c6?auto=format&fit=crop&q=80&w=800',
+    image: '/images/services/ipl-ketiak.webp',
     description: 'Menghambat pertumbuhan bulu and mencerahkan area ketiak secara efektif.',
     benefits: [
       "Menghambat pertumbuhan bulu ketiak",
@@ -182,7 +181,7 @@ export const SERVICES: Service[] = [
     category: 'laser-ipl',
     name: 'IPL HAIR REMOVAL KAKI',
     price: 'Rp 300.000',
-    image: 'https://images.unsplash.com/photo-1505944270255-bd2b68af6422?auto=format&fit=crop&q=80&w=800',
+    image: '/images/services/ipl-kaki.webp',
     description: 'Menghambat pertumbuhan bulu halus pada kaki untuk hasil kulit mulus.',
     benefits: [
       "Mengurangi pertumbuhan bulu kaki secara signifikan",
@@ -195,7 +194,7 @@ export const SERVICES: Service[] = [
     category: 'laser-ipl',
     name: 'IPL HAIR REMOVAL KUMIS',
     price: 'Rp 150.000',
-    image: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&q=80&w=800',
+    image: '/images/services/ipl-kumis.webp',
     description: 'Penghilangan bulu halus area kumis untuk wajah lebih bersih.',
     benefits: [
       "Menghilangkan bulu halus di area bibir atas",
@@ -208,7 +207,7 @@ export const SERVICES: Service[] = [
     category: 'laser-ipl',
     name: 'IPL HAIR REMOVAL TANGAN',
     price: 'Rp 300.000',
-    image: 'https://images.unsplash.com/photo-1610812383740-41a02796e952?auto=format&fit=crop&q=80&w=800',
+    image: '/images/services/ipl-tangan.webp',
     description: 'Menghambat pertumbuhan bulu pada tangan and mencerahkan tekstur kulit.',
     benefits: [
       "Menghambat pertumbuhan bulu pada lengan",
@@ -221,7 +220,7 @@ export const SERVICES: Service[] = [
     category: 'laser-ipl',
     name: 'IPL JERAWAT PUNGGUNG',
     price: 'Rp 350.000',
-    image: 'https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&q=80&w=800',
+    image: '/images/services/ipl-punggung.webp',
     description: 'Membunuh bakteri jerawat and mengeringkan jerawat punggung secara cepat.',
     benefits: [
       "Membunuh bakteri penyebab jerawat punggung",
@@ -278,18 +277,18 @@ export const TRANSFORMATIONS = [
 // --- Testimonial Data ---
 export const TESTIMONIALS = [
   {
-    name: "Siska Amelia",
+    name: "Ida",
     source: "WhatsApp",
     content: "Sumpah Head Spa nya enak bgt, langsung enteng bgt kepala. Gak nyangka di Singaparna ada tempat se-estetik dan se-zen ini!",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=60&w=150",
-    screenshot: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?auto=format&fit=crop&q=60&w=500"
+    screenshot: '/images/testimony/testimony-1.webp'
   },
   {
     name: "Rina Kartika",
-    source: "Instagram DM",
+    source: "WhatsApp",
     content: "IPL ketiak di sini beneran ngefek, bulu jd makin tipis & ketiak cerahan. Harganya paling ramah di kantong dibanding klinik lain.",
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=60&w=150",
-    screenshot: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=60&w=500"
+    screenshot: '/images/testimony/testimony-2.webp'
   },
   {
     name: "Dewi Putri",

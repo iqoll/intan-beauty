@@ -36,7 +36,7 @@ export default function TestimonialScreenshotCard({ item }: TestimonialScreensho
         <img
           src={item.screenshot || "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=60&w=500"}
           alt="Testimony Screenshot"
-          className="w-full h-32 md:h-40 object-cover rounded-lg opacity-80 group-hover:opacity-100 transition-opacity"
+          className="w-full h-150 md:h-190 object-cover rounded-lg opacity-80 group-hover:opacity-100 transition-opacity"
         />
       </div>
 
