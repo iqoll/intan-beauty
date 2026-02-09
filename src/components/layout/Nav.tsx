@@ -20,11 +20,11 @@ function Nav({ isMenuOpen, setIsMenuOpen, handleOpenBooking }: NavProps) {
         </div>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium uppercase tracking-widest text-primary/70">
-          <a href="#about" className="hover:text-primary transition-colors">Tentang</a>
-          <a href="#services" className="hover:text-primary transition-colors">Layanan</a>
-          <a href="#results" className="hover:text-primary transition-colors">Hasil</a>
+          <a href="#tentang" className="hover:text-primary transition-colors">Tentang</a>
+          <a href="#layanan" className="hover:text-primary transition-colors">Layanan</a>
+          <a href="#hasil" className="hover:text-primary transition-colors">Hasil</a>
           <a href="#faq" className="hover:text-primary transition-colors">FAQ</a>
-          <a href="#contact" className="hover:text-primary transition-colors">Kontak</a>
+          <a href="#kontak" className="hover:text-primary transition-colors">Kontak</a>
           <button
             onClick={handleOpenBooking}
             className="bg-primary text-white px-6 py-2.5 rounded-full hover:bg-primary-light transition-all shadow-lg"

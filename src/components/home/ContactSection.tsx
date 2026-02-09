@@ -5,7 +5,7 @@ export default function ContactSection() {
   const [showMap, setShowMap] = useState(true);
 
   return (
-    <section id="contact" className="py-24 px-4 bg-zen-sand">
+    <section id="kontak" className="py-24 px-4 bg-zen-sand">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <div className="space-y-8">

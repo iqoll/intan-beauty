@@ -25,6 +25,10 @@
   --chat--toggle--active--background: var(--chat--color--primary--shade-100);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }

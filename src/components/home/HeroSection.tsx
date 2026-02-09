@@ -4,7 +4,7 @@ interface HeroSectionProps {
 
 export default function HeroSection({ handleOpenBooking }: HeroSectionProps) {
   return (
-    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
+    <section id="tentang" className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img
           src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=1600"

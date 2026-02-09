@@ -41,6 +41,7 @@ export const SERVICES: Service[] = [
     category: 'hair',
     name: 'Creambath',
     price: 'Rp 50.000',
+    description: 'Perawatan dasar rambut yang bertujuan menghaluskan, melembapkan, merelaksasi, dan mempermudah pengaturan rambut',
     image: 'https://images.pexels.com/photos/8834074/pexels-photo-8834074.jpeg?auto=format&fit=crop&q=80&w=800',
     steps: [
       { name: 'Shampoo 2x', description: 'Pembersihan rambut' },
@@ -98,7 +99,7 @@ export const SERVICES: Service[] = [
     category: 'facial',
     name: 'Facial Glow Sinar PDT',
     price: 'Rp 175.000',
-    image: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc2069?auto=format&fit=crop&q=80&w=800',
+    image: '/images/services/facial-glow-pdt.webp',
     description: 'Level lanjutan dari perawatan wajah yang menggabungkan teknologi medis modern dengan terapi relaksasi.',
     steps: [
       { name: 'DOUBLE CLEANSING', description: 'Pembersihan mendalam' },
@@ -131,7 +132,7 @@ export const SERVICES: Service[] = [
     category: 'facial',
     name: 'Facial Organic Treatment',
     price: 'Rp 50.000',
-    image: 'https://images.pexels.com/photos/20683630/pexels-photo-20683630.jpeg?auto=format&fit=crop&q=80&w=800',
+    image: '/images/services/facial-organic.webp',
     description: 'Perawatan wajah alami menggunakan bahan organik untuk kulit sehat bercahaya.',
     steps: [
       { name: 'Cleansing', description: 'Pembersihan awal wajah' },
@@ -252,17 +253,17 @@ export const FAQS: FAQItem[] = [
 // --- Transformation Data ---
 export const TRANSFORMATIONS = [
   {
-    title: "Japanese Head Spa",
-    description: "Pembersihan kerak kulit kepala & relaksasi total.",
-    before: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=60&w=400",
-    after: "https://images.unsplash.com/photo-1522337660859-02fbefda4740?auto=format&fit=crop&q=60&w=400",
-    category: "Hair"
+    title: "Facial + IPL Glow",
+    description: "Wajah tampak lebih cerah & pori-pori mengecil.",
+    before: "/images/testimony/before-1.webp",
+    after: "/images/testimony/after-1.webp",
+    category: "Skin"
   },
   {
-    title: "Facial Glow Whitening",
-    description: "Wajah tampak lebih cerah & pori-pori mengecil.",
-    before: "https://images.unsplash.com/photo-1512290901933-2868953112ba?auto=format&fit=crop&q=60&w=400",
-    after: "https://images.unsplash.com/photo-15122923902-8a9f81dc2069?auto=format&fit=crop&q=60&w=400",
+    title: "Facial Phytogen Whitening & Laser IPL Flek",
+    description: "Wajah kusam dan flek langsung memudar.",
+    before: "/images/testimony/before-2.webp",
+    after: "/images/testimony/after-2.webp",
     category: "Skin"
   },
   {

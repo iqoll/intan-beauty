@@ -6,7 +6,7 @@ import TestimonialScreenshotCard from '../ui/TestimonialScreenshotCard';
 
 export default function TransformationSection() {
   return (
-    <section id="results" className="py-24 px-4 bg-white overflow-hidden">
+    <section id="hasil" className="py-24 px-4 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <SectionTitle
           title="Hasil & Testimoni"

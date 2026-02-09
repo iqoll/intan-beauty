@@ -9,7 +9,7 @@ interface ServicesSectionProps {
 
 export default function ServicesSection({ handleOpenBooking }: ServicesSectionProps) {
   return (
-    <section id="services" className="py-24 px-4 bg-zen-sand">
+    <section id="layanan" className="py-24 px-4 bg-zen-sand">
       <div className="max-w-7xl mx-auto">
         <SectionTitle
           title="Layanan Eksklusif Kami"
