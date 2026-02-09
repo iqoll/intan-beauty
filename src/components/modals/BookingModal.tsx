@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { SERVICES, WHATSAPP_LINK } from "../../constants";
-import { X, ArrowLeft, Scissors, Heart, Zap, Sparkles, MessageCircle } from "lucide-react";
+import { X, ArrowLeft, Sparkles, MessageCircle } from "lucide-react";
+import { Icon } from '@iconify/react';
 
 interface BookingModalProps {
   isOpen: boolean;
@@ -61,7 +62,7 @@ function BookingModal({ isOpen, onClose }: BookingModalProps) {
                 className="group p-6 bg-white border border-zen-sand rounded-3xl hover:border-secondary hover:shadow-xl transition-all text-center"
               >
                 <div className="w-16 h-16 bg-zen-sand rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-secondary/10 transition-colors">
-                  <Scissors className="text-primary group-hover:text-secondary" />
+                  <Icon icon="mdi:hair-dryer" className="text-primary group-hover:text-secondary" width={24} height={24} />
                 </div>
                 <span className="font-bold text-primary block">Hair Treatment</span>
               </button>
@@ -70,7 +71,7 @@ function BookingModal({ isOpen, onClose }: BookingModalProps) {
                 className="group p-6 bg-white border border-zen-sand rounded-3xl hover:border-secondary hover:shadow-xl transition-all text-center"
               >
                 <div className="w-16 h-16 bg-zen-sand rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-secondary/10 transition-colors">
-                  <Heart className="text-primary group-hover:text-secondary" />
+                  <Icon icon="fa6-solid:spa" className="text-primary group-hover:text-secondary" width={24} height={24} />
                 </div>
                 <span className="font-bold text-primary block">Facial Treatment</span>
               </button>
@@ -79,7 +80,7 @@ function BookingModal({ isOpen, onClose }: BookingModalProps) {
                 className="group p-6 bg-white border border-zen-sand rounded-3xl hover:border-secondary hover:shadow-xl transition-all text-center sm:col-span-2"
               >
                 <div className="w-16 h-16 bg-zen-sand rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-secondary/10 transition-colors">
-                  <Zap className="text-primary group-hover:text-secondary" />
+                  <Icon icon="mdi:laser-pointer" className="text-primary group-hover:text-secondary" width={24} height={24} />
                 </div>
                 <span className="font-bold text-primary block">Laser IPL & Hair Removal</span>
               </button>

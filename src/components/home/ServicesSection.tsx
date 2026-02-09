@@ -1,4 +1,4 @@
-import { Scissors, Heart, Zap } from 'lucide-react';
+import { Icon } from '@iconify/react';
 import { SERVICES } from '../../constants';
 import SectionTitle from '../ui/SectionTitle';
 import ServiceCard from '../ui/ServiceCard';
@@ -20,7 +20,7 @@ export default function ServicesSection({ handleOpenBooking }: ServicesSectionPr
         <div className="mb-24">
           <div className="flex items-center gap-4 mb-10 overflow-x-auto pb-4 no-scrollbar">
             <div className="bg-primary text-white px-6 py-3 rounded-full flex items-center gap-2 shrink-0">
-              <Scissors size={18} />
+              <Icon icon="mdi:hair-dryer" width={18} height={18} />
               <span className="font-bold">Hair Treatments</span>
             </div>
           </div>
@@ -35,7 +35,7 @@ export default function ServicesSection({ handleOpenBooking }: ServicesSectionPr
         <div className="mb-24">
           <div className="flex items-center gap-4 mb-10 overflow-x-auto pb-4 no-scrollbar">
             <div className="bg-secondary text-white px-6 py-3 rounded-full flex items-center gap-2 shrink-0">
-              <Heart size={18} />
+              <Icon icon="fa6-solid:spa" width={18} height={18} />
               <span className="font-bold">Facial & Skin Treatments</span>
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function ServicesSection({ handleOpenBooking }: ServicesSectionPr
         <div className="mb-10">
           <div className="flex items-center gap-4 mb-10 overflow-x-auto pb-4 no-scrollbar">
             <div className="bg-primary-light text-white px-6 py-3 rounded-full flex items-center gap-2 shrink-0">
-              <Zap size={18} />
+              <Icon icon="mdi:laser-pointer" width={18} height={18} />
               <span className="font-bold">Laser IPL & Hair Removal</span>
             </div>
           </div>
