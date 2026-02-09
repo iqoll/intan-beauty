@@ -11,7 +11,7 @@ export default function ContactSection() {
           <div className="space-y-8">
             <h2 className="text-5xl font-bold mb-8 serif">Kunjungi Kami</h2>
             <div className="flex gap-6 items-start">
-              <div className="bg-white p-4 rounded-2xl shadow-sm">
+              <div className="bg-white p-4 rounded-2xl shadow-sm hover:bg-zen-cream hover:scale-105 transition-all">
                 <MapPin className="text-secondary" size={24} />
               </div>
               <div>
@@ -20,8 +20,10 @@ export default function ContactSection() {
               </div>
             </div>
             <div className="flex gap-6 items-start">
-              <div className="bg-white p-4 rounded-2xl shadow-sm">
-                <Phone className="text-secondary" size={24} />
+              <div className="bg-white p-4 rounded-2xl shadow-sm hover:bg-zen-cream hover:scale-105 transition-all">
+                <a href="https://wa.me/6282219282839" target="_blank" rel="noopener noreferrer">
+                  <Phone className="text-secondary" size={24} />
+                </a>
               </div>
               <div>
                 <h4 className="font-bold text-lg mb-2 serif">WhatsApp</h4>
@@ -29,8 +31,10 @@ export default function ContactSection() {
               </div>
             </div>
             <div className="flex gap-6 items-start">
-              <div className="bg-white p-4 rounded-2xl shadow-sm">
-                <Instagram className="text-secondary" size={24} />
+              <div className="bg-white p-4 rounded-2xl shadow-sm hover:bg-zen-cream hover:scale-105 transition-all">
+                <a href="https://www.instagram.com/intanbeauty26" target="_blank" rel="noopener noreferrer">
+                  <Instagram className="text-secondary" size={24} />
+                </a>
               </div>
               <div>
                 <h4 className="font-bold text-lg mb-2 serif">Instagram</h4>

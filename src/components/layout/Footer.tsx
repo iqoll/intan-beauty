@@ -11,10 +11,10 @@ export default function Footer() {
           <div>
             <h4 className="text-xl font-bold mb-8 serif">Navigasi</h4>
             <ul className="space-y-4 text-zen-cream/60">
-              <li><a href="#about" className="hover:text-white transition-colors">Tentang Kami</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Layanan Spa</a></li>
-              <li><a href="#results" className="hover:text-white transition-colors">Hasil Transformasi</a></li>
-              <li><a href="#contact" className="hover:text-white transition-colors">Kontak</a></li>
+              <li><a href="#tentang" className="hover:text-white transition-colors">Tentang Kami</a></li>
+              <li><a href="#layanan" className="hover:text-white transition-colors">Layanan Spa</a></li>
+              <li><a href="#hasil" className="hover:text-white transition-colors">Hasil Transformasi</a></li>
+              <li><a href="#kontak" className="hover:text-white transition-colors">Kontak</a></li>
             </ul>
           </div>
           <div>
