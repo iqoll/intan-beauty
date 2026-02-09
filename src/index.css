@@ -40,6 +40,10 @@ h3,
   font-family: 'Cormorant Garamond', serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 .zen-gradient {
   background: linear-gradient(to bottom, #FDFBF7, #F5F1E9);
 }
