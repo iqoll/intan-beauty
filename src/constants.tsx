@@ -267,8 +267,8 @@ export const TRANSFORMATIONS = [
     category: "Skin"
   },
   {
-    title: "IPL Hair Removal",
-    description: "Pertumbuhan bulu melambat & area ketiak cerah.",
+    title: "Facial Organic Treatment",
+    description: "Jerawat berkurang wajah menjadi lebih cerah.",
     before: "/images/testimony/before-3.webp",
     after: "/images/testimony/after-3.webp",
     category: "Skin"
@@ -280,7 +280,7 @@ export const TESTIMONIALS = [
   {
     name: "Ida",
     source: "WhatsApp",
-    content: "Sumpah Head Spa nya enak bgt, langsung enteng bgt kepala. Gak nyangka di Singaparna ada tempat se-estetik dan se-zen ini!",
+    content: "InsyaAllah minggu kedua saya facial lagi.",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=60&w=150",
     screenshot: '/images/testimony/testimony-1.webp'
   },
