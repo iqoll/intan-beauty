@@ -67,7 +67,7 @@ export const SERVICES: Service[] = [
     id: 'facial-glow-whitening',
     category: 'facial',
     name: 'Facial Glow Whitening',
-    price: 'Rp 125.000',
+    price: 'Rp 140.000',
     image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=800',
     description: 'Layanan perawatan wajah esensial yang dirancang khusus untuk mengangkat sel kulit mati dan mengembalikan kecerahan alami kulit.',
     steps: [
@@ -98,7 +98,7 @@ export const SERVICES: Service[] = [
     id: 'facial-glow-pdt',
     category: 'facial',
     name: 'Facial Glow Sinar PDT',
-    price: 'Rp 175.000',
+    price: 'Rp 165.000',
     image: '/images/services/facial-glow-pdt.webp',
     description: 'Level lanjutan dari perawatan wajah yang menggabungkan teknologi medis modern dengan terapi relaksasi.',
     steps: [
@@ -345,7 +345,7 @@ export const TRANSFORMATIONS = [
     category: "Skin"
   },
   {
-    title: "Facial Organic Treatment",
+    title: "Facial PDT Acne + Laser IPL Acne",
     description: "Jerawat berkurang wajah menjadi lebih cerah.",
     before: "/images/testimony/before-3.webp",
     after: "/images/testimony/after-3.webp",

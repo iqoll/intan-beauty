@@ -20,7 +20,7 @@ export default function Footer() {
           <div>
             <h4 className="text-xl font-bold mb-8 serif">Jam Operasional</h4>
             <ul className="space-y-4 text-zen-cream/60">
-              <li className="flex justify-between"><span>Senin - Minggu:</span><span>09:00 - 18:00</span></li>
+              <li className="flex justify-between"><span>Senin - Minggu:</span><span>09:00 - 17:00</span></li>
             </ul>
           </div>
         </div>
