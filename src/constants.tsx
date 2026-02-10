@@ -369,11 +369,11 @@ export const TESTIMONIALS = [
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=60&w=150",
     screenshot: '/images/testimony/testimony-2.webp'
   },
-  {
-    name: "Tiara Dwi Marlinda",
-    source: "Google Maps",
-    content: "enak kalo perawatan disini nih.",
-    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=60&w=150",
-    screenshot: "/images/testimony/testimony-3.webp"
-  }
+  // {
+  //   name: "Tiara Dwi Marlinda",
+  //   source: "Google Maps",
+  //   content: "enak kalo perawatan disini nih.",
+  //   avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=60&w=150",
+  //   screenshot: "/images/testimony/testimony-3.webp"
+  // }
 ];
